@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binary Tree</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>Binary Tree Visualizer</h2>
+    <form method="get">
+      <label for="nodeType" class="label">Node Type</label>
+      <br />
+      <select name="nodeType" class="dropdown">
+        <option value="select">Select one...</option>
+        <option value="parent">Parent Node</option>
+        <option value="root">Root Node</option>
+        <option value="child">Child Node</option>
+      </select>
+      <br />
+      <label for="nodeValue" class="label">Node Value</label>
+      <br />
+      <input
+        type="text"
+        name=""
+        value="Type the name of node here..."
+        class="text"
+      />
+      <br />
+      <input type="button" value="Add Node" class="button" />
+    </form>
+    <br />
+    <label for="selectedNode" class="label">Selected Node</label>
+    <input
+      type="text"
+      name="selectedNode"
+      class="text"
+      style="margin-left: 10px"
+    />
+    <br />
+    <div class="buttons">
+      <input type="button" class="button" value="Update" />
+      <input
+        type="button"
+        class="button"
+        value="Delete"
+        style="margin-left: 20px"
+      />
+    </div>
+  </body>
+</html>
